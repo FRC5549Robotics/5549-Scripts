@@ -2,8 +2,8 @@
 title Deploy-5549
 color 0a
 
-cd C:\Users\FRC5549\Documents\5549-Gemini\5549-2019
-echo Deploying Robot 5549...
+cd C:\Users\FRC5549\Documents\2020\5549-2020
+echo Deploying Robot 5549-2020...
 echo.
 py -3 robot.py deploy --no-version-check
 echo Deploy Complete

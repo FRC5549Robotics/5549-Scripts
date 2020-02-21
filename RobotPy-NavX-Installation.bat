@@ -8,14 +8,22 @@ py -3 -m pip install -U robotpy-navx
 echo.
 echo Installation Complete
 echo.
-echo Installing Robotpy-NavX on robot...
-cd C:\Users\FRC5549\Desktop\FRC Related\robotpy-2020-5549
-py -3 installer.py download-opkg python37-robotpy-navx
+
+echo Connect to WIFI...
+pause
 echo.
+echo Downloading Robotpy-NavX...
+echo.
+cd C:\Users\FRC5549\Desktop\FRC Related\robotpy-2020-5549
+py -3 -m robotpy_installer download-opkg robotpy-navx
+echo.
+
 echo Connect to Robot WIFI...
 pause
 echo.
-py -3 installer.py install-opkg python37-robotpy-navx
+echo Installing RobotPy-NavX on robot...
+echo.
+py -3 -m robotpy_installer install-opkg robotpy-navx
 echo.
 echo Installation Complete
 echo.

@@ -2,15 +2,21 @@
 title RobotPy-cscore-Installation
 color 0a
 
-echo Installing Robotpy-cscore on robot...
+echo Connect to WIFI
+pause
 echo.
-cd C:\Users\FRC5549\Desktop\FRC Related\robotpy-2020-5549
-py -3 installer.py download-opkg python37-robotpy-cscore
+echo Downloading RobotPy-cscore...
 echo.
+cd C:\Users\FRC5549\Desktop\RobotPy
+robotpy-installer download-opkg cscore
+echo.
+
 echo Connect to Robot WIFI...
 pause
 echo.
-py -3 installer.py install-opkg python37-robotpy-cscore
+echo Installing RobotPy-cscore...
+echo.
+robotpy-installer install-opkg cscore
 echo.
 echo Installation Complete
 echo.
