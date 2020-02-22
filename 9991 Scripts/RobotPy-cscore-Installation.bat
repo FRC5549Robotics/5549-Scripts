@@ -7,7 +7,7 @@ pause
 echo.
 echo Downloading RobotPy-cscore...
 echo.
-cd C:\Users\FRC5549\Desktop\RobotPy
+cd C:\Users\FRC5549\Desktop\RobotPy - 9991
 robotpy-installer download-opkg cscore
 echo.
 

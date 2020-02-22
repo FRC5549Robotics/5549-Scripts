@@ -14,7 +14,7 @@ pause
 echo.
 echo Downloading RobotPy-CTRE...
 echo.
-cd C:\Users\FRC5549\Desktop\Robotpy
+cd C:\Users\FRC5549\Desktop\RobotPy - 5549
 py -3 -m robotpy_installer download-opkg robotpy-ctre
 echo.
 

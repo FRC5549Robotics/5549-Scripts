@@ -2,7 +2,7 @@
 title Test-9991
 color 0a
 
-cd C:\Users\FRC5549\PycharmProjects\9991\9991-Space
+cd C:\Users\FRC5549\Desktop\RobotPy - 9991
 echo Testing Robot 9991...
 echo.
 py  -3 robot.py test

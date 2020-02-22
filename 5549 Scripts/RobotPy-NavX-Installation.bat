@@ -14,7 +14,7 @@ pause
 echo.
 echo Downloading Robotpy-NavX...
 echo.
-cd C:\Users\FRC5549\Desktop\FRC Related\robotpy-2020-5549
+cd C:\Users\FRC5549\Desktop\RobotPy - 5549
 py -3 -m robotpy_installer download-opkg robotpy-navx
 echo.
 
